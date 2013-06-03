@@ -1,0 +1,2 @@
+v1
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,asj_fft_si_sose_so_b_fft_110:asj_fft_si_sose_so_b_fft_110_inst|asj_fft_dft_bfp_sgl_fft_110:\gen_se:bfpdft|asj_fft_cmult_std_fft_110:\gen_da0:gen_std:cm1|asj_fft_mult_add_fft_110:\gen_ma:gen_ma_full:ms|altmult_add:ALTMULT_ADD_component|mult_add_s5f2:auto_generated|ded_mult_7v81:ded_mult2|mac_mult8,

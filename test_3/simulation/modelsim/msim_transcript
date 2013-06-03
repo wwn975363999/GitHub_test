@@ -1,0 +1,71 @@
+# Reading G:/altera/11.0/modelsim_ae/tcl/vsim/pref.tcl 
+# do fft_test_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying G:\altera\11.0\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied G:\altera\11.0\modelsim_ae\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/MCU_Study/GitHub/GitHub_test/test_3 {D:/MCU_Study/GitHub/GitHub_test/test_3/fft_test.vo}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module fft_test
+# 
+# Top level modules:
+# 	fft_test
+# 
+# vlog -vlog01compat -work work +incdir+D:/MCU_Study/GitHub/GitHub_test/test_3 {D:/MCU_Study/GitHub/GitHub_test/test_3/fft_test_tb.v}
+# Model Technology ModelSim ALTERA vlog 6.6d Compiler 2010.11 Nov  2 2010
+# -- Compiling module fft_test_tb
+# 
+# Top level modules:
+# 	fft_test_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc" work.fft_test_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps work.fft_test_tb 
+# //  ModelSim ALTERA 6.6d Nov  2 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.fft_test_tb
+# Loading work.fft_test
+# Loading altera_mf_ver.altmult_add
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading lpm_ver.lpm_add_sub
+# Loading sgate_ver.oper_add
+# Loading sgate_ver.oper_less_than
+# Loading sgate_ver.oper_mux
+# Loading sgate_ver.oper_selector
+# Loading altera_mf_ver.scfifo
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by:   Hostname:   ProcessID: 1
+#           Attempting to use alternate WLF file "./wlftss04y4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftss04y4
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as   OLD_DATA
+# Time: 0  Instance: fft_test_tb.dut.nl1i1i
+# ** Note: $finish    : D:/MCU_Study/GitHub/GitHub_test/test_3/fft_test_tb.v(102)
+#    Time: 65390 ns  Iteration: 0  Instance: /fft_test_tb
+# 1
+# Break in Module fft_test_tb at D:/MCU_Study/GitHub/GitHub_test/test_3/fft_test_tb.v line 102
+# Simulation Breakpoint: 1
+# Break in Module fft_test_tb at D:/MCU_Study/GitHub/GitHub_test/test_3/fft_test_tb.v line 102
+# MACRO ./fft_test_run_msim_rtl_verilog.do PAUSED at line 17
